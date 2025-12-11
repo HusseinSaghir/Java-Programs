@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/fxml/1" xmlns:fx="http://javafx.com/fxml" 
+      fx:controller="com.example.ConverterController" spacing="10" 
+      alignment="CENTER" style="-fx-background-color: #f5f5f5;">
+    
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    
+    <Label text="Unit Converter" style="-fx-font-weight: bold; -fx-font-size: 20px;"/>
+    
+    <VBox spacing="5" alignment="CENTER_LEFT">
+        <padding>
+            <Insets top="10" right="10" bottom="10" left="10"/>
+        </padding>
+        <Label text="Select conversion type:"/>
+        <RadioButton fx:id="milesKmRadio" text="Miles ↔ Kilometers" selected="true"/>
+        <RadioButton fx:id="celsiusFahrenheitRadio" text="Celsius ↔ Fahrenheit"/>
+        <RadioButton fx:id="poundsKgRadio" text="Pounds ↔ Kilograms"/>
+    </VBox>
+    
+    <GridPane hgap="10" vgap="10" alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints halignment="RIGHT" minWidth="100"/>
+            <ColumnConstraints halignment="LEFT" minWidth="150"/>
+        </columnConstraints>
+        
+        <Label fx:id="unit1Label" text="Miles:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="unit1Field" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        
+        <Label fx:id="unit2Label" text="Kilometers:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <TextField fx:id="unit2Field" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    </GridPane>
+    
+    <Label text="Press Enter after typing to convert" style="-fx-font-size: 12px;"/>
+</VBox>
+

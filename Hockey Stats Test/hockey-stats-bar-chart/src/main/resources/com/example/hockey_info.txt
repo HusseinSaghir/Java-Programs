@@ -1,0 +1,10 @@
+Tampa Bay Lightning,325
+Boston Bruins,270
+Calgary Flames,289
+Washington Capitals,278
+San Jose Sharks,289
+Toronto Maple Leafs,286
+New York Islanders,223
+Nashville Predators,240
+Pittsburgh Penguins,273
+Winnipeg Jets,272

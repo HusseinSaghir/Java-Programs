@@ -1,0 +1,182 @@
+Output
+-----------------------------------------------------
+
+PS C:\Users\Owner\Desktop\random-cards> mvn clean javafx:run
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:random-cards >----------------------
+[INFO] Building random-cards 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:17 during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ random-cards ---
+[INFO] Deleting C:\Users\Owner\Desktop\random-cards\target
+[INFO] 
+[INFO] >>> javafx:0.0.8:run (default-cli) > process-classes @ random-cards >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ random-cards ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 60 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ random-cards ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files with javac [debug target 17] to target\classes
+[WARNING] location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+[INFO] /C:/Users/Owner/Desktop/random-cards/src/main/java/com/example/Main.java: C:\Users\Owner\Desktop\random-cards\src\main\java\com\example\Main.java uses or overrides a deprecated API.
+[INFO] /C:/Users/Owner/Desktop/random-cards/src/main/java/com/example/Main.java: Recompile with -Xlint:deprecation for details.
+[INFO]
+[INFO] <<< javafx:0.0.8:run (default-cli) < process-classes @ random-cards <<<
+[INFO]
+[INFO]
+[INFO] --- javafx:0.0.8:run (default-cli) @ random-cards ---
+Loading FXML...
+Creating controller: com.example.Controller
+Image base path: /com/example/images/card/
+
+Loading card images...
+Success: /com/example/images/card/1.png (72.0x96.0)
+Loaded: /com/example/images/card/1.png
+Success: /com/example/images/card/2.png (72.0x96.0)
+Loaded: /com/example/images/card/2.png
+Success: /com/example/images/card/3.png (72.0x96.0)
+Loaded: /com/example/images/card/3.png
+Success: /com/example/images/card/4.png (72.0x96.0)
+Loaded: /com/example/images/card/4.png
+Success: /com/example/images/card/5.png (72.0x96.0)
+Loaded: /com/example/images/card/5.png
+Success: /com/example/images/card/6.png (72.0x96.0)
+Loaded: /com/example/images/card/6.png
+Success: /com/example/images/card/7.png (72.0x96.0)
+Loaded: /com/example/images/card/7.png
+Success: /com/example/images/card/8.png (72.0x96.0)
+Loaded: /com/example/images/card/8.png
+Success: /com/example/images/card/9.png (72.0x96.0)
+Loaded: /com/example/images/card/9.png
+Success: /com/example/images/card/10.png (72.0x96.0)
+Loaded: /com/example/images/card/10.png
+Success: /com/example/images/card/11.png (72.0x96.0)
+Loaded: /com/example/images/card/11.png
+Success: /com/example/images/card/12.png (72.0x96.0)
+Loaded: /com/example/images/card/12.png
+Success: /com/example/images/card/13.png (72.0x96.0)
+Loaded: /com/example/images/card/13.png
+Success: /com/example/images/card/14.png (72.0x96.0)
+Loaded: /com/example/images/card/14.png
+Success: /com/example/images/card/15.png (72.0x96.0)
+Loaded: /com/example/images/card/15.png
+Success: /com/example/images/card/16.png (72.0x96.0)
+Loaded: /com/example/images/card/16.png
+Success: /com/example/images/card/17.png (72.0x96.0)
+Loaded: /com/example/images/card/17.png
+Success: /com/example/images/card/18.png (72.0x96.0)
+Loaded: /com/example/images/card/18.png
+Success: /com/example/images/card/19.png (72.0x96.0)
+Loaded: /com/example/images/card/19.png
+Success: /com/example/images/card/20.png (72.0x96.0)
+Loaded: /com/example/images/card/20.png
+Success: /com/example/images/card/21.png (72.0x96.0)
+Loaded: /com/example/images/card/21.png
+Success: /com/example/images/card/22.png (72.0x96.0)
+Loaded: /com/example/images/card/22.png
+Success: /com/example/images/card/23.png (72.0x96.0)
+Loaded: /com/example/images/card/23.png
+Success: /com/example/images/card/24.png (72.0x96.0)
+Loaded: /com/example/images/card/24.png
+Success: /com/example/images/card/25.png (72.0x96.0)
+Loaded: /com/example/images/card/25.png
+Success: /com/example/images/card/26.png (72.0x96.0)
+Loaded: /com/example/images/card/26.png
+Success: /com/example/images/card/27.png (72.0x96.0)
+Loaded: /com/example/images/card/27.png
+Success: /com/example/images/card/28.png (72.0x96.0)
+Loaded: /com/example/images/card/28.png
+Success: /com/example/images/card/29.png (72.0x96.0)
+Loaded: /com/example/images/card/29.png
+Success: /com/example/images/card/30.png (72.0x96.0)
+Loaded: /com/example/images/card/30.png
+Success: /com/example/images/card/31.png (72.0x96.0)
+Loaded: /com/example/images/card/31.png
+Success: /com/example/images/card/32.png (72.0x96.0)
+Loaded: /com/example/images/card/32.png
+Success: /com/example/images/card/33.png (72.0x96.0)
+Loaded: /com/example/images/card/33.png
+Success: /com/example/images/card/34.png (72.0x96.0)
+Loaded: /com/example/images/card/34.png
+Success: /com/example/images/card/35.png (72.0x96.0)
+Loaded: /com/example/images/card/35.png
+Success: /com/example/images/card/36.png (72.0x96.0)
+Loaded: /com/example/images/card/36.png
+Success: /com/example/images/card/37.png (72.0x96.0)
+Loaded: /com/example/images/card/37.png
+Success: /com/example/images/card/38.png (72.0x96.0)
+Loaded: /com/example/images/card/38.png
+Success: /com/example/images/card/39.png (72.0x96.0)
+Loaded: /com/example/images/card/39.png
+Success: /com/example/images/card/40.png (72.0x96.0)
+Loaded: /com/example/images/card/40.png
+Success: /com/example/images/card/41.png (72.0x96.0)
+Loaded: /com/example/images/card/41.png
+Success: /com/example/images/card/42.png (72.0x96.0)
+Loaded: /com/example/images/card/42.png
+Success: /com/example/images/card/43.png (72.0x96.0)
+Loaded: /com/example/images/card/43.png
+Success: /com/example/images/card/44.png (72.0x96.0)
+Loaded: /com/example/images/card/44.png
+Success: /com/example/images/card/45.png (72.0x96.0)
+Loaded: /com/example/images/card/45.png
+Success: /com/example/images/card/46.png (72.0x96.0)
+Loaded: /com/example/images/card/46.png
+Success: /com/example/images/card/47.png (72.0x96.0)
+Loaded: /com/example/images/card/47.png
+Success: /com/example/images/card/48.png (72.0x96.0)
+Loaded: /com/example/images/card/48.png
+Success: /com/example/images/card/49.png (72.0x96.0)
+Loaded: /com/example/images/card/49.png
+Success: /com/example/images/card/50.png (72.0x96.0)
+Loaded: /com/example/images/card/50.png
+Success: /com/example/images/card/51.png (72.0x96.0)
+Loaded: /com/example/images/card/51.png
+Success: /com/example/images/card/52.png (72.0x96.0)
+Loaded: /com/example/images/card/52.png
+Success: /com/example/images/card/53.png (72.0x96.0)
+Loaded: /com/example/images/card/53.png
+Success: /com/example/images/card/54.png (72.0x96.0)
+Loaded: /com/example/images/card/54.png
+Success: /com/example/images/card/back.png (342.0x480.0)
+Set back image: /com/example/images/card/back.png
+
+Dealing new cards...
+Dealt: Card 50 (Jack)
+Dealt: Card 43 (4)
+Dealt: Card 54 (Joker)
+Dealt: Card 37 (Jack)
+Card 1 dimensions: 100.0x140.0
+Card 2 dimensions: 100.0x140.0
+Card 3 dimensions: 100.0x140.0
+Card 4 dimensions: 100.0x140.0
+FXML loaded successfully
+Flipped card 1: 50 (Jack)
+Flipped card 2: 43 (4)
+Flipped card 3: 54 (Joker)
+Flipped card 4: 37 (Jack)
+
+Dealing new cards...
+Dealt: Card 16 (3)
+Dealt: Card 38 (Queen)
+Dealt: Card 20 (7)
+Dealt: Card 52 ()
+Flipped card 1: 16 (3)
+Flipped card 2: 38 (Queen)
+Flipped card 3: 20 (7)
+Flipped card 4: 52 ()
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.260 s
+[INFO] Finished at: 2025-06-16T21:38:29-04:00
+[INFO] ------------------------------------------------------------------------
+PS C:\Users\Owner\Desktop\random-cards> 

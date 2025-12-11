@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="com.example.Controller" spacing="10">
+    
+    <!-- Debug Console -->
+    <TextArea fx:id="debugConsole" editable="false" prefHeight="100"/>
+    
+    <Button text="Refresh" onAction="#handleRefresh"/>
+    
+    <HBox alignment="CENTER" spacing="20">
+        <ImageView fx:id="card1" fitWidth="100" fitHeight="140" onMouseClicked="#handleCardClick"/>
+        <ImageView fx:id="card2" fitWidth="100" fitHeight="140" onMouseClicked="#handleCardClick"/>
+        <ImageView fx:id="card3" fitWidth="100" fitHeight="140" onMouseClicked="#handleCardClick"/>
+        <ImageView fx:id="card4" fitWidth="100" fitHeight="140" onMouseClicked="#handleCardClick"/>
+    </HBox>
+</VBox>

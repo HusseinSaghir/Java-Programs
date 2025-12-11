@@ -1,0 +1,129 @@
+======== Spell checking Mexico.txt =========
+line number:1
+mexico add to dictionary? y or n
+y
+spanish add to dictionary? y or n
+y
+méxico add to dictionary? y or n
+y
+mexican add to dictionary? y or n
+y
+america add to dictionary? y or n
+y
+guatemala add to dictionary? y or n
+y
+belize add to dictionary? y or n
+y
+caribbean add to dictionary? y or n
+y
+km2 add to dictionary? y or n
+n
+sq add to dictionary? y or n
+n
+line number:2
+pre add to dictionary? y or n
+n
+columbian add to dictionary? y or n
+y
+bce add to dictionary? y or n
+n
+mesoamerican add to dictionary? y or n
+y
+olmec add to dictionary? y or n
+n
+zapotec add to dictionary? y or n
+y
+teotihuacan add to dictionary? y or n
+y
+purepecha add to dictionary? y or n
+y
+aztec add to dictionary? y or n
+y
+european add to dictionary? y or n
+y
+tenochtitlan add to dictionary? y or n
+y
+spain add to dictionary? y or n
+y
+christianity add to dictionary? y or n
+y
+th add to dictionary? y or n
+n
+zacateca add to dictionary? y or n
+y
+guanajuato add to dictionary? y or n
+y
+line number:3
+socioeconomic add to dictionary? y or n
+y
+american add to dictionary? y or n
+y
+mexican–american add to dictionary? y or n
+y
+france add to dictionary? y or n
+y
+benito add to dictionary? y or n
+y
+juárez add to dictionary? y or n
+y
+porfirio add to dictionary? y or n
+y
+díaz add to dictionary? y or n
+y
+porfiriato add to dictionary? y or n
+y
+pri add to dictionary? y or n
+n
+paternalistic add to dictionary? y or n
+y
+ii add to dictionary? y or n
+n
+neoliberal add to dictionary? y or n
+y
+chiapa add to dictionary? y or n
+y
+line number:4
+gdp add to dictionary? y or n
+n
+ppp add to dictionary? y or n
+n
+democratization add to dictionary? y or n
+y
+unesco add to dictionary? y or n
+y
+megadiverse add to dictionary? y or n
+y
+biodiversity add to dictionary? y or n
+y
+g20 add to dictionary? y or n
+n
+organisation add to dictionary? y or n
+y
+co add to dictionary? y or n
+n
+oecd add to dictionary? y or n
+n
+wto add to dictionary? y or n
+n
+asia add to dictionary? y or n
+y
+latin add to dictionary? y or n
+y
+ibero add to dictionary? y or n
+n
+======miss spelled words======
+bce
+co
+g20
+gdp
+ibero
+ii
+km2
+oecd
+olmec
+ppp
+pre
+pri
+sq
+th
+wto
